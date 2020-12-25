@@ -1,0 +1,17 @@
+name: owner
+columns:
+  - field: name
+    wrap: false
+  - field: description__c
+    wrap: false
+  - field: members__c
+    wrap: false
+filter_fields:
+  - owner
+filter_scope: mine
+filters: []
+label: 我的
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

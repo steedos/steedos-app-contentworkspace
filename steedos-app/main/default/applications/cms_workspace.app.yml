@@ -1,0 +1,21 @@
+name: 文档库
+code: cms_workspace
+description: 管理文档库以及所有对象的附件。
+icon_slds: article
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: false
+mobile_objects:
+  - content_workspace__c
+  - cms_files
+oauth2_enabled: false
+oauth2_logout_enabled: false
+objects:
+  - content_workspace__c
+  - cms_files
+saml_enabled: false
+saml_logout_enabled: false
+sort: 9100
+visible: true
